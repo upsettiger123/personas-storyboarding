@@ -1,0 +1,50 @@
+html {
+    background-color: rgb(235, 171, 235);
+}
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+
+h1 {
+    text-align: center
+}
+
+#parts {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 4rem;
+}
+
+.part {
+    width: 35rem;
+    padding: 0 2rem;
+    margin: 1rem 0;
+}
+
+#part3, #part4 {
+    width: 100vw;
+}
+
+#part4 img {
+    width: 72rem;
+}
+
+img {
+    width: 35rem;
+}
+
+.persona {
+    display: flex;
+    margin-bottom: 2em;
+    background-color: #ADA2F1;
+    padding: 1.5rem;
+}
+
+.persona-text {
+    margin: 0 2em;
+}
+
+#title {
+    text-align: center;
+}
