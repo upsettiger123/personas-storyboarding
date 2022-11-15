@@ -1,13 +1,29 @@
 html {
-    background-color: rgb(235, 171, 235);
+    background-color: #282c34;
+    color: white;
+    min-height: 100vh;
 }
 
 body {
-    font-family: 'Trebuchet MS', sans-serif;
-  }
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
 
 h1 {
-    text-align: center
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #E7BAD1;
+}
+
+h2 {
+    text-decoration: underline;
+    text-decoration-color: #DFF1FF;
+}
+
+h3 {
+    color: #DFF1FF;
+    font-weight: 300;
 }
 
 #parts {
@@ -32,19 +48,31 @@ h1 {
 
 img {
     width: 35rem;
+    background-color: white;
 }
 
 .persona {
     display: flex;
     margin-bottom: 2em;
-    background-color: #ADA2F1;
+    background-color: #6d61bc;
     padding: 1.5rem;
 }
 
 .persona-text {
     margin: 0 2em;
+    font-size: 115%;
 }
 
 #title {
     text-align: center;
+    font-size: calc(10px + 2vmin)
+}
+
+#main-h2 {
+    text-decoration: none;
+}
+
+.subtitle {
+    font-weight: bold;
+    color: #E7BAD1;
 }
